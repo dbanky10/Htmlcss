@@ -1,0 +1,50 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #00FFFF;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
+}
+* {
+  font-family:Georgia;
+}
+p {
+	font-size: 18px;
+	color: #AA33BB;
+}
+
+li {
+	font-size: 16px;
+	color: red;
+}
+.header {
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+.partner {
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  float: left;
+  width: 500px;
+}
+.container {
+	float : right;
+	overflow: hidden;
+	width: 800px;
+}
+h1 {
+	font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 50px;
+  line-height: 100px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  color: pink;
+}
+.contain {
+	height: 450px;
+	width: 550px;
+}
